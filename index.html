@@ -4,61 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="referrer" content="no-referrer">
-    <meta name="description" content="Meet the Contoso voice assistant in this fictional customer-care demonstration powered by Cognigy.">
-    <title>Contoso | Your next conversation</title>
+    <meta name="description" content="Contoso Bank voice call. An Ignite demo powered by Cognigy.">
+    <title>Contoso Bank | Ignite demo</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="https://github.com/Cognigy/click-to-call-widget/releases/latest/download/webRTCWidget.js"></script>
     <script defer src="demo.js"></script>
   </head>
-  <body>
-    <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
-      <a class="wordmark" href="./" aria-label="Contoso home">
-        <span class="brand-mark" aria-hidden="true">c</span>
-        <span>contoso<span class="brand-dot">.</span></span>
-      </a>
-      <span class="demo-badge">Ignite demo experience</span>
+  <body class="contoso-demo webrtc-position-centered">
+    <header>
+      <img src="contoso-bank.jpg" alt="Contoso Bank" width="200" height="80">
+      <p>Ignite demo</p>
     </header>
-
-    <main id="main">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow"><span aria-hidden="true"></span> A more human connection</p>
-          <h1 id="hero-title">Great service starts with a <em>conversation.</em></h1>
-          <p class="hero-description">Meet the Contoso voice assistant. Explore a new way to connect with customer care, one conversation at a time.</p>
-          <div class="experience-note">
-            <span class="note-mark" aria-hidden="true">C</span>
-            <p>A fictional company.<br><strong>A hands-on voice experience.</strong></p>
-          </div>
-        </div>
-
-        <section class="welcome-card" aria-labelledby="welcome-title">
-          <div class="card-icon" aria-hidden="true">
-            <span></span><span></span><span></span><span></span><span></span>
-          </div>
-          <p class="eyebrow">Let's talk</p>
-          <h2 id="welcome-title">Your next conversation<br>is a click away.</h2>
-          <p>Open the call widget in the corner when you're ready to explore.</p>
-          <ol class="steps">
-            <li><span>01</span><div><strong>Get comfortable</strong><p>Use a quiet space and have your microphone ready.</p></div></li>
-            <li><span>02</span><div><strong>Make it your choice</strong><p>Review the widget's consent notice, then choose to start a call.</p></div></li>
-            <li><span>03</span><div><strong>Say hello</strong><p>Allow microphone access to speak. End the call using the widget.</p></div></li>
-          </ol>
-          <p id="widget-status" role="status" aria-live="polite" data-state="loading">Loading the voice experience&hellip;</p>
-          <noscript>JavaScript is required to load the call widget.</noscript>
-        </section>
-      </section>
-
-      <section class="demo-note" aria-labelledby="demo-note-title">
-        <h2 id="demo-note-title">A demo, not a live support channel.</h2>
-        <p>Use fictional information only. When you call, voice is sent to the configured Cognigy service. This page does not verify call connectivity or the Ignite environment flows.</p>
-      </section>
+    <main aria-label="Audio call">
+      <p id="widget-status" role="status" aria-live="polite" data-state="loading">Loading call&hellip;</p>
+      <noscript>Enable JavaScript to load the call widget.</noscript>
     </main>
-
-    <footer>
-      <span class="footer-brand">contoso.</span>
-      <p>Contoso is a fictional company. Voice experience powered by Cognigy.</p>
-      <span>Built for conversation.</span>
-    </footer>
   </body>
 </html>
