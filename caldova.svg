@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="64" viewBox="0 0 220 64" role="img" aria-labelledby="title">
+  <title id="title">Caldova</title>
+  <rect x="0" y="6" width="52" height="52" rx="16" fill="#2563eb"/>
+  <path d="M36 22a14 14 0 1 0 0 20" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <text x="68" y="44" fill="#173c66" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="600" letter-spacing="-1.2">Caldova</text>
+</svg>

@@ -34,7 +34,7 @@ header p {
 }
 
 /* Preserve the vendor's call controls and centered transcript layout. */
-body.contoso-demo .webrtc_widget_outer_wrapper {
+body.caldova-demo .webrtc_widget_outer_wrapper {
   top: 50%;
   left: 50%;
   right: auto;
